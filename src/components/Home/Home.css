@@ -1,0 +1,31 @@
+.home-wrapper{
+    background: #ffffff;
+    .home-header{
+        margin: 10px 40px;
+        display: flex;
+        flex-direction: row;
+        
+        .logo-text{
+            font-size: 24px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 500;
+            display: flex;
+            margin: auto 0;
+        }
+
+       
+        .header__logo{
+            background-image: url("../../assets/images/turing-x-white.png");
+            width: 70px;
+            height: 100px;
+            font-size: 100px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            position: relative;
+            right: 10px;
+    
+        }
+    }
+    
+}
